@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--=============== Fontawesome Icon ===============-->
+        <script src="https://kit.fontawesome.com/aa7454d09f.js" crossorigin="anonymous"></script>
+
+        <title>Hotel KingFort</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">King Fort</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#fecilitice" class="nav__link">Fecilitice</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#room_photos" class="nav__link">Rooms</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/main2.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Experience Unmatched Hospitality</span>
+                        <h1 class="home__data-title">Discover Luxury <br> and  <b> Tradition at  <br> Hotel King Fort</b></h1>
+                        <a href="/Kingfort/index.htm" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Premier Accommodations for Your Stay</span>
+                            <a href="#room_photos" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/homesmall.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">More Information <br> About our Hotel</h2>
+                        <p class="about__description">Welcome to "Hotel King Fort", an exclusive economy-class 
+                            business hotel offering affordability without compromising on quality. 
+                            Immerse yourself in the essence of "God's Own Country," Kerala, as we invite you to 
+                            indulge in our range of packages designed for leisure and pleasure.
+                        </p>
+                        <p id="moreText" class="about__description" style="display: none; padding-bottom: 10px;">
+                            Located on Kallai Road in Calicut, opposite KOTTAKKAL ARYA VAIDYASALA, "King Fort" 
+                            has earned a reputation for excellence, providing guests with a blend of quality and 
+                            value. Our hotel offers ample space and tranquility, boasting a prime vintage location 
+                            with the railway station and bus station conveniently nearby. <br><br>
+
+                            Choose from our well-appointed AC and non-AC rooms, including Standard, Deluxe, Superior 
+                            Suite, and King Suite, all equipped with modern amenities such as LCD TVs, 
+                            mini-refrigerators, internet access, 24-hour room service, laundry facilities, and hot and 
+                            cold water in the bathrooms. Additional conveniences include travel assistance, 
+                            direct dialing from the room, safe deposit lockers, doctor-on-call services, and 
+                            acceptance of major credit cards.<br><br>
+
+                            Renowned for our pleasing ambiance and delectable cuisine ranging from Indian to continental, 
+                            Hotel King Fort maintains international standards of hygiene. Our esteemed guests depart 
+                            with hearts full and cherished memories, reflecting the exceptional experiences they've 
+                            had during their stay at Hotel King Fort.
+                        </p>
+                        <a class="button" id="btn" >Read More</a>
+                        
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about5.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--====================== Fecilitice ====================-->
+            <section class="Fecilitycontainer" id="fecilitice">
+	
+                <main class="row">
+                    
+                    <!--   *******  Education Section Starts  *******   -->
+            
+                    <section class="col">
+                        
+                        <header class="title">
+                            <h2>Facilities</h2>
+                        </header>
+            
+                        <div class="contents">
+                            
+                            <!-- <div class="box">
+                                <h3>Hotel King Fort bestows the following facilities for their valued customers to have a peaceful and comfortable stay.</h3>
+                                <p>
+                                    <li>53 well appointed economy A/c and Non A/c rooms.(Standards, Deluxe, Superior Suit and King Suit)</li>
+                                    <li>Premium multi cuisine restaurant</li>
+                                    <li>Walk- in coffee shop</li>
+                                    <li>Exclusive Arabic kitchen</li>
+                                    <li>Banquet and conference halls ( from 20 pax to 500 pax )</li>
+                                    <li>Separate wing for out door catering</li>
+                                    <li>In – House laundry</li>
+                                    <li>Major credit cards excepted</li>
+                                    <li>Take away and home delivery facility</li>
+                                    <li>Business centre</li>
+                                    <li>Wi Fi Internet facility</li>
+                                    <li>Safe deposit locker</li>
+                                    <li>Travel assistance</li>
+                                    <li>Ample car parking</li>
+                                    <li>L C D TV with all channels, Doctor on call, Direct dialing</li>
+                                    <li>Mini brisk walking space for the inmates</li>
+                                </p>
+                            </div> -->
+                            
+                            <div class="box">
+                                <p>Multi Cuisine Premium & Economy restaurant serving Arabic, Chinese & Indian Delicacies</p>
+                            </div>
+                            <div class="box">
+                                <p>Wi Fi Internet facility</p>
+                            </div>
+                            <div class="box">
+                                <p>Prayer Hall</p>
+                            </div>
+                            <div class="box">
+                                <p>Room Service</p>
+                            </div>
+                            <div class="box">
+                                <p>In House laundry</p>
+                            </div> 
+                            <div class="box">
+                                <p>Banquet and conference halls</p>
+                            </div>
+                            <div class="box">
+                                <p>Safe deposit locker</p>
+                            </div>
+                            <div class="box">
+                                <p>Travel Assistance</p>
+                            </div>
+                            <div class="box">
+                                <p>Secreterial assistance</p>
+                            </div>
+                            <div class="box">
+                                <p>LCD TV with all channels</p>
+                            </div>
+                            <div class="box">
+                                <p>Doctor on call</p>
+                            </div>
+                            <div class="box">
+                                <p>Direct dialing</p>
+                            </div>
+                            <div class="box">
+                                <p>Specious parking Area</p>
+                            </div>
+
+                        </div>
+                    </section>
+            
+                    <!--   *******  Education Section Ends  *******   -->
+            
+                    <!--   *******  Experience Section Starts  *******  -->
+            
+                    <section class="col" id="rooms">
+                        
+                        <header class="title">
+                            <h2>Rooms</h2>
+                        </header>
+            
+                        <div class="contents">
+                            
+                            <div class="box">
+                                <h3>55 Rooms</h3>
+                                <p>55 well appointed economy A/c and Non A/c rooms.(Standards, Deluxe, Superior Suit and King Suit)</p>
+                            </div>
+            
+                            <div class="box">
+                                <h3>Suite</h3>
+                                <p>Suite: Exceptional furnishing, ambient lighting, high-speed internet, well-stocked minibar, tea/coffee maker, and more.</p>
+                            </div>
+
+                            <div class="box">
+                                <h3>Mini Suite</h3>
+                                <p>Suite is special in every way. From furnishing to facilities, everything here is simply extraordinary. This fascinating suite features ambient lighting, with relaxing chair, high speed internet connectivity, well-stuffed minibar, tea/coffee maker and . And much more.</p>
+                            </div>
+            
+                            <div class="box">
+                                <h3>Standard</h3>
+                                <p>Our standard air conditioned rooms are of ultimate comfort which offers twin bed & king size bed with very spacious room.</p>
+                            </div>
+
+                            <div class="box">
+                                <h3>Economy</h3>
+                                <p>Our economy air conditioned rooms is the basic room with minimum space in bedroom & wash room with all modern comfort which offers queen size bed & good interior facilities.</p>
+                            </div>
+
+                            <div class="box">
+                                <h3>Deluxe</h3>
+                                <p>Deluxe rooms are designed to take care of both business and leisure travelers. Our cozy and classy rooms offer from modern bedroom & bathroom amenities to high speed internet connectivity.</p>
+                            </div>
+                            
+            
+                        </div>
+                    </section>
+            
+                    <!--   *******  Experience Section Ends   *******  -->
+                </main>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="room_photos">
+                <h2 class="section__title">Choose Your Rooms</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/suite.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <div class="place__data">
+                                <h3 class="place__title">Standard</h3>
+                                <span class="place__subtitle">Non A/C</span>
+                                <span class="place__price">$1200 + TAX</span>
+                            </div>
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/miniSuite.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <div class="place__data">
+                                <h3 class="place__title">Economy</h3>
+                                <span class="place__subtitle">A/C</span>
+                                <span class="place__price">$1400 + TAX</span>
+                            </div>
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/suite.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+
+                            <div class="place__data">
+                                <h3 class="place__title">Standard</h3>
+                                <span class="place__subtitle">A/C</span>
+                                <span class="place__price">$1700 + TAX</span>
+                            </div>
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/miniSuite.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+
+                            <div class="place__data">
+                                <h3 class="place__title">Deluxe</h3>
+                                <span class="place__subtitle">A/C</span>
+                                <span class="place__price">$2500 + TAX</span>
+                            </div>
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/miniSuite.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+
+                            <div class="place__data">
+                                <h3 class="place__title">Mini Suite</h3>
+                                <span class="place__subtitle">A/C</span>
+                                <span class="place__price">$3100 + TAX</span>
+                            </div>
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 6 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/suite.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+
+                            <div class="place__data">
+                                <h3 class="place__title">Suite</h3>
+                                <span class="place__subtitle">A/C</span>
+                                <span class="place__price">$3700 + TAX</span>
+                            </div>
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+                    
+                    <!--==================== PLACES CARD 7 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/banguetHall.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+
+                            <div class="place__data">
+                                <h3 class="place__title">Banguet Hall</h3>
+                                <span class="place__subtitle">A/C</span>
+                                <span class="place__price">$3700 + TAX</span>
+                            </div>
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 7 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/banguetHall.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+
+                            <div class="place__data">
+                                <h3 class="place__title">Conference Hall</h3>
+                                <span class="place__subtitle">A/C</span>
+                                <span class="place__price">$3700 + TAX</span>
+                            </div>
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 7 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/banguetHall.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+
+                            <div class="place__data">
+                                <h3 class="place__title">Summit Hall</h3>
+                                <span class="place__subtitle">A/C</span>
+                                <span class="place__price">$3700 + TAX</span>
+                            </div>
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Our Exquisite <br> Restaurant Experience</h2>
+
+                <div class="experience__container container grid">
+                    <!-- <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">20</h2>
+                            <span class="experience__description">Year <br> Experience</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">75</h2>
+                            <span class="experience__description">Complete <br> tours</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">650+</h2>
+                            <span class="experience__description">Tourist <br> Destination</span>
+                        </div>
+                    </div> -->
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/restorent.jpeg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/restorent1.jpeg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Take a Tour of Our Exquisite Hotel and Experience Unparalleled Comfort and Luxury!
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover the most <br> attractive places near us</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/kozhikkodBeach.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Kozhikode Beach</h2>
+                                <span class="discover__description">Open on all days of the week from 8:00 AM till 8:00 PM</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/MananchiraSquare.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Mananchira Square</h2>
+                                <span class="discover__description">The heart of Kozhikode</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/kappad.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Sunset at Kappad Beach</h2>
+                                <span class="discover__description">17 kilometers from Kozhikode</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/Beypore.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Beypore</h2>
+                                <span class="discover__description">The mouth of the Chaliyar River</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 5 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/KadalundiBirdSanctuary.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Kadalundi Bird Sanctuary</h2>
+                                <span class="discover__description">19 kilometers from Kozhikode</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 6 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/ThusharagiriWaterfalls.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Thusharagiri Waterfalls</h2>
+                                <span class="discover__description">50 kilometers from Kozhikode</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <!-- <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
+                        <p class="subscribe__description">Subscribe to our newsletter and get a 
+                            special 30% discount.
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Enter email" class="subscribe__input">
+    
+                            <button class="button">
+                                Subscribe
+                            </button>
+                        </form> -->
+                        <div class="experience__container container grid">
+                            <div class="experience__content grid">
+                                <div class="experience__data">
+                                    <h2 class="experience__number">20</h2>
+                                    <span class="experience__description">Year Experience</span>
+                                </div>
+        
+                                <div class="experience__data">
+                                    <h2 class="experience__number">100%</h2>
+                                    <span class="experience__description">happy clients</span>
+
+                                </div>
+        
+                                <div class="experience__data">
+                                    <h2 class="experience__number">780</h2>
+                                    <span class="experience__description">projects completed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <!-- ==================== SPONSORS ====================
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section> -->
+        </main>
+
+        <!-- =================== Contact =================== -->
+        
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <!-- <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Explore</h3>
+                        <p class="footer__description">Travel you choose the <br> destination, 
+                            we offer you the <br> experience.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 Bedimcode. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div> -->
+                <section class="contact-form" id="contact">
+                    <h1 class="contactHeading">Contact Us</h1>
+                    <p class="para">We're thrilled to hear from you! Whether you have questions about reservations, 
+                        special requests, or just want to say hello, our team is here to assist you. Reach out to us 
+                        using the information below:
+                    </p>
+                    
+                    <div class="contactForm">
+                        <form action="#" class="ContactForm">
+                         <h1 class="sub-heading">Need Support !</h1>
+                         <p class="para para2">Contact us for a quote , help to join the them.</p>
+                         <input type="text" class="input" placeholder="your name">
+                         <input type="text" class="input" placeholder="your email">
+                         <input type="text" class="input" placeholder="your Subject">
+                         <textarea class="input" cols="30" rows="5" placeholder="Your message..."></textarea>
+                         <input type="submit" class="input contactSubmit" value="Send Message">
+                        </form>
+                
+                        <div class="map-container">
+                            <div class="mapBg"></div>
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9914410252845!2d2.291906375932066!3d48.85837360070842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2set!4v1695627657575!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="contactMethod">
+                        <div class="method">
+                            <i class="fa-solid fa-location-dot contactIcon"></i>
+                            <article class="text">
+                                <h1 class="sub-heading">Location</h1>
+                                <p class="para">Kallai Road, <br>Railway Station:200mts, <br>Calicut Airport: 28kms </p>
+                            </article>
+                        </div>
+                
+                        <div class="method">
+                            <i class="fa-solid fa-envelope contactIcon"></i>
+                            <article class="text">
+                                <h1 class="sub-heading">Email</h1>
+                                <p class="para">Email: sales@hotelkingfort.com</p>
+                            </article>
+                        </div>
+                
+                        <div class="method">
+                            <i class="fa-solid fa-phone contactIcon"></i>
+                            <article class="text">
+                                <h1 class="sub-heading">Phone</h1>
+                                <p class="para">Ph: +91 495 230 44 15 <br>Fax: 91 495 230 44 10</p>
+                            </article>
+                        </div>
+                    </div>
+                   </section>
+
+                   <div class="footer__rights">
+                    <p class="footer__copy">&#169; Copyright 2024 Kingfort Hotel.com</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
